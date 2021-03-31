@@ -1,27 +1,20 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-import NavBar from './components/NavBar';
+import { BrowserRouter as Router, Route } from "react-router-dom"
+import NavBar from './components/NavBar'
 import About from './components/About'
-
-// function Navbar() {
-//   return (
-//     <div>
-//       <h1 className="title">Andrew Boyle</h1>
-//       <nav>
-//         <NavLink to="/" className="navv"> ABOUT </NavLink>
-//         <NavLink to="portfolio" className="navv"> PORTFOLIO </NavLink>
-//         <NavLink to="/contact" className="navv"> CONTACT </NavLink>
-//       </nav>
-//     </div>
-//   )
-// }
-
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <Router>
       <NavBar />
       <Route exact path="/" component={About}/>
+      <Route exact path="/About" component={About}/>
+      <Route exact path="/Portfolio" component={Portfolio}/>
+      <Route exact path="/Contact" component={Contact}/>
+      <Footer/>
     </Router>
   )
 }
