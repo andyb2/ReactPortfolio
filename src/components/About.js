@@ -1,12 +1,13 @@
 import React from "react";
 // import resume from '../assets/resume.pdf'
+import NightImg from '../assets/screenshots/projectSS/night.jpg'
 
 function About() {
     return (
         <div class="cardCont mb-3">
             <div class="row g-0">
                 <div class="col-md-4 sx-2">
-                    <img class="nighttime img-fluid" src="./public/assets/screenshots/projectSS/night.jpg"
+                    <img class="nighttime img-fluid" src={NightImg}
                         alt="Night time with street lights" />
                 </div>
                 <div class="col-md-8">
