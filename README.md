@@ -20,15 +20,15 @@ Convert my personal website to react.
 
 # Installation
 
-No steps required... Just use this link [Personal Website](https://andyb2.github.io/updatedPersonalWebsite/)
+No steps required... Just use this link [Personal Website](https://reactwebsite1.herokuapp.com/)
 
 # Usage
 
-Use this link: [Personal Website](https://andyb2.github.io/updatedPersonalWebsite/)
+Use this link: [Personal Website](https://reactwebsite1.herokuapp.com/)
 
 New update includes a My Resume link. This link will open a new tab containing resume.pdf
 
-![Navbar link showing My Resume](/public/assets/screenshots/readmeSS/navbarResumeSS.JPG)
+![Navbar link showing My Resume](/src/assets/screenshots/readmeSS/navbarResumeSS.JPG)
 
 The next update was adding projects to the portfolio page. There are four new projects that were added to the portfolio page.
 
