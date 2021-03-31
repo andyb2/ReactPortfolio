@@ -16,8 +16,8 @@ function Portfolio(){
             Note taker project
           </p>
           <div class="col-md-12 text-center">
-            <button class="btn btn-primary justify-content-center"><a href='https://utornotetaker.herokuapp.com/'>View Project</a></button>
-            <button class="btn btn-primary justify-content-center"><a href='https://github.com/andyb2/NoteTaker'>Git Hub</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://utornotetaker.herokuapp.com/'>View Project</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://github.com/andyb2/NoteTaker'>Git Hub</a></button>
           </div>
         </article>
       </div>
