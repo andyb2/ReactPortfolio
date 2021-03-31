@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom"
 import Resume from '../assets/resume/resume.pdf'
 
-
 function Navbar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
