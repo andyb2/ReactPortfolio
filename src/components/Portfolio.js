@@ -29,8 +29,8 @@ function Portfolio(){
             Weather Dashboard
           </p>
           <div class="col-md-12 text-center">
-            <button class="btn btn-primary justify-content-center"><a href='https://andyb2.github.io/WeatherDashboard/'>View Project</a></button>
-            <button class="btn btn-primary justify-content-center"><a href='https://github.com/andyb2/WeatherDashboard'>Git Hub</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://andyb2.github.io/WeatherDashboard/'>View Project</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://github.com/andyb2/WeatherDashboard'>Git Hub</a></button>
           </div>
         </article>
       </div>
@@ -45,8 +45,8 @@ function Portfolio(){
             Day Planner
           </p>
           <div class="col-md-12 text-center">
-            <button class="btn btn-primary justify-content-center"><a href='https://andyb2.github.io/DayPlanner/'>View Project</a></button>
-            <button class="btn btn-primary justify-content-center"><a href='https://github.com/andyb2/DayPlanner'>Git Hub</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://andyb2.github.io/DayPlanner/'>View Project</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://github.com/andyb2/DayPlanner'>Git Hub</a></button>
           </div>
         </article>
       </div>
@@ -58,8 +58,8 @@ function Portfolio(){
             Password Generator
           </p>
           <div class="col-md-12 text-center">
-            <button class="btn btn-primary justify-content-center"><a href='https://andyb2.github.io/RandomPasswordGenerator/'>View Project</a></button>
-            <button class="btn btn-primary justify-content-center"><a href='https://github.com/andyb2/RandomPasswordGenerator'>Git Hub</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://andyb2.github.io/RandomPasswordGenerator/'>View Project</a></button>
+            <button class="btn btn-primary justify-content-center"><a class='portBtn' href='https://github.com/andyb2/RandomPasswordGenerator'>Git Hub</a></button>
           </div>
         </article>
       </div>
