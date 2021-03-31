@@ -1,5 +1,4 @@
 import React from "react";
-// import resume from '../assets/resume.pdf'
 import NightImg from '../assets/screenshots/projectSS/night.jpg'
 
 function About() {
