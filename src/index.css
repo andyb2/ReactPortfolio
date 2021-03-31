@@ -113,6 +113,19 @@ body {
   width: 18rem;
 }
 
+.portBtn{
+  text-decoration: none;
+  color: white;
+}
+
+.portBtn:hover{
+  color: white;
+  background-color: rgb(48, 47, 47);
+}
+.btn:hover{
+  background-color: rgb(48, 47, 47);
+}
+
 /* Contact ------------------------------------------------------------------------------------- */
 
 .contactme {
