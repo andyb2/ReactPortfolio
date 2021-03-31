@@ -32,7 +32,7 @@ New update includes a My Resume link. This link will open a new tab containing r
 
 The next update was adding projects to the portfolio page. There are four new projects that were added to the portfolio page.
 
-![Projects screenshot](/public/assets/screenshots/readmeSS/newProjectsSS.JPG)
+![Projects screenshot](/src/assets/screenshots/readmeSS/newProjectsSS.JPG)
 
 # Credits
 
