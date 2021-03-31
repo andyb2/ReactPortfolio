@@ -1,4 +1,6 @@
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom"
+import Resume from '../assets/resume/resume.pdf'
+
 
 function Navbar() {
     return (
@@ -12,18 +14,16 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <NavLink to="portfolio" className="nav-link active text-light"> PORTFOLIO </NavLink>
+                            <NavLink to="portfolio" className="nav-link active text-light"> Portfolio </NavLink>
                         </li>
                         <li class="nav-item">
-                            <NavLink to="/contact" className="nav-link active text-light"> CONTACT </NavLink>
+                            <NavLink to="/contact" className="nav-link active text-light"> Contact </NavLink>
                         </li>
                         <li class="nav-item">
-                            <NavLink to="/" className="nav-link active text-light"> ABOUT </NavLink>
+                            <NavLink to="/" className="nav-link active text-light"> About </NavLink>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light"
-                                onclick="window.open('./assets/resume/resume.pdf', '_blank', 'fullscreen=yes'); return false;">My
-                      Resume</a>
+                            <a class="nav-link text-light" href={Resume} target="_blank" rel="noreferrer">My Resume</a>
                         </li>
                     </ul>
                 </div>
